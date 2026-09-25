@@ -19,6 +19,7 @@ a:focus-visible{outline:2px solid #E4FF38;outline-offset:3px}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 .dots a span{display:block;border-radius:50%;width:6px;height:6px;background:rgba(217,212,202,0.45);transition:all .2s}
 .dots a.on span{width:10px;height:10px;background:#D0432B}
+button:focus-visible{outline:2px solid #E4FF38;outline-offset:3px}
 </style>
 
 </head>
@@ -95,7 +96,7 @@ html{scroll-padding-top:env(safe-area-inset-top,0px)}
 <h2 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 800; font-stretch: 88%; font-size: clamp(38px, 5.4vw, 72px); line-height: 0.98; letter-spacing: -0.015em">Plans are everywhere. Judgment isn't.</h2>
 <p style="margin: 0; font-size: clamp(17px, 1.5vw, 19px); line-height: 1.6; color: #D9D4CA">Every training app sells you a plan: generated, adaptive, personalised, but still a plan you follow. When life gets in the way, you're on your own again.</p>
 </div>
-<figure style="flex: 1 1 380px; margin: 0; display: flex; flex-direction: column; gap: 22px"><div style="display: flex; flex-direction: column; gap: 8px"><div style="display: flex; justify-content: space-between; gap: 12px; font-size: 15px"><span>Free and downloaded plans</span><span style="color: #D9D4CA">$0</span></div><div style="height: 14px; background: rgba(217,212,202,0.12)"><div style="width: 2%; height: 100%; background: #D9D4CA"></div></div></div><div style="display: flex; flex-direction: column; gap: 8px"><div style="display: flex; justify-content: space-between; gap: 12px; font-size: 15px"><span>Training apps</span><span style="color: #D9D4CA">$20–30 / month</span></div><div style="height: 14px; background: rgba(217,212,202,0.12)"><div style="width: 10%; height: 100%; background: #D9D4CA"></div></div></div><div style="display: flex; flex-direction: column; gap: 8px"><div style="display: flex; justify-content: space-between; gap: 12px; font-size: 15px"><span>Human coach</span><span style="color: #D9D4CA">$200–300 / month</span></div><div style="height: 14px; background: rgba(217,212,202,0.12)"><div style="width: 100%; height: 100%; background: #F5F3EE"></div></div></div>
+<figure style="flex: 1 1 380px; margin: 0; display: flex; flex-direction: column; gap: 22px"><div style="display: flex; flex-direction: column; gap: 8px"><div style="display: flex; justify-content: space-between; gap: 12px; font-size: 15px"><span>Free and downloaded plans</span><span style="color: #D9D4CA"><span data-p="free">$0</span></span></div><div style="height: 14px; background: rgba(217,212,202,0.12)"><div style="width: 2%; height: 100%; background: #D9D4CA"></div></div></div><div style="display: flex; flex-direction: column; gap: 8px"><div style="display: flex; justify-content: space-between; gap: 12px; font-size: 15px"><span>Training apps</span><span style="color: #D9D4CA"><span data-p="apps">$20–30</span> / month</span></div><div style="height: 14px; background: rgba(217,212,202,0.12)"><div style="width: 10%; height: 100%; background: #D9D4CA"></div></div></div><div style="display: flex; flex-direction: column; gap: 8px"><div style="display: flex; justify-content: space-between; gap: 12px; font-size: 15px"><span>Human coach</span><span style="color: #D9D4CA"><span data-p="coach">$200–300</span> / month</span></div><div style="height: 14px; background: rgba(217,212,202,0.12)"><div style="width: 100%; height: 100%; background: #F5F3EE"></div></div></div>
 <figcaption style="font-size: 14px; line-height: 1.5; color: #D9D4CA; padding-top: 8px; border-top: 1px solid rgba(217,212,202,0.14)">Real judgment only shows up at the top of the price ladder.</figcaption></figure>
 </div>
 </div>
@@ -193,8 +194,7 @@ html{scroll-padding-top:env(safe-area-inset-top,0px)}
 <div style="display: flex; justify-content: space-between; align-items: center; font-size: 14px; color: #D9D4CA"><span style="display: flex; align-items: center; gap: 12px"><svg width="22.39" height="18" viewBox="6 26 102 82" aria-hidden="true" style="display: block; flex-shrink: 0"><rect x="6" y="64" width="18" height="44" rx="9" fill="#F5F3EE"></rect><rect x="34" y="46" width="18" height="62" rx="9" fill="#F5F3EE"></rect><rect x="62" y="26" width="18" height="82" rx="9" fill="#F5F3EE"></rect><rect x="90" y="74" width="18" height="34" rx="9" fill="#D0432B"></rect></svg>What it costs</span><span>11 of 15</span></div>
 <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; gap: clamp(36px, 5vw, 56px); padding: clamp(40px, 6vw, 72px) 0">
 <h2 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 800; font-stretch: 88%; font-size: clamp(38px, 5.4vw, 72px); line-height: 0.98; letter-spacing: -0.015em; max-width: 14em">A coach at the price of an app.</h2>
-<div style="display: flex; flex-wrap: wrap; gap: 1px; background: rgba(217,212,202,0.14); border: 1px solid rgba(217,212,202,0.14)"><div style="flex: 1 1 260px; background: #15181C; padding: 32px; display: flex; flex-direction: column; gap: 10px"><span style="font-size: 15px; color: #D9D4CA">Human coach</span><span style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: clamp(40px, 4.8vw, 60px); line-height: 1; color: #F5F3EE">$200–300</span><span style="font-size: 15px; line-height: 1.5; color: #D9D4CA">per month</span></div><div style="flex: 1 1 260px; background: #15181C; padding: 32px; display: flex; flex-direction: column; gap: 10px"><span style="font-size: 15px; color: #D9D4CA">Training apps</span><span style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: clamp(40px, 4.8vw, 60px); line-height: 1; color: #F5F3EE">$20–30</span><span style="font-size: 15px; line-height: 1.5; color: #D9D4CA">per month, for a plan</span></div><div style="flex: 1 1 260px; background: #1E2227; padding: 32px; display: flex; flex-direction: column; gap: 10px"><span style="font-size: 15px; color: #D9D4CA">LOAD</span><span style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(40px, 4.8vw, 60px); line-height: 1; color: #E4FF38">$25</span><span style="font-size: 15px; line-height: 1.5; color: #D9D4CA">per month, for a coach. £20 in the UK, €25 in Europe.</span></div></div>
-<p style="margin: 0; font-size: 15px; color: #D9D4CA">Beta access: [terms to confirm]</p>
+<div style="display: flex; flex-wrap: wrap; gap: 1px; background: rgba(217,212,202,0.14); border: 1px solid rgba(217,212,202,0.14)"><div style="flex: 1 1 260px; background: #15181C; padding: 32px; display: flex; flex-direction: column; gap: 10px"><span style="font-size: 15px; color: #D9D4CA">Human coach</span><span style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: clamp(40px, 4.8vw, 60px); line-height: 1; color: #F5F3EE"><span data-p="coach">$200–300</span></span><span style="font-size: 15px; line-height: 1.5; color: #D9D4CA">per month</span></div><div style="flex: 1 1 260px; background: #15181C; padding: 32px; display: flex; flex-direction: column; gap: 10px"><span style="font-size: 15px; color: #D9D4CA">Training apps</span><span style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: clamp(40px, 4.8vw, 60px); line-height: 1; color: #F5F3EE"><span data-p="apps">$20–30</span></span><span style="font-size: 15px; line-height: 1.5; color: #D9D4CA">per month, for a plan</span></div><div style="flex: 1 1 260px; background: #1E2227; padding: 32px; display: flex; flex-direction: column; gap: 10px"><span style="font-size: 15px; color: #D9D4CA">LOAD</span><span style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(40px, 4.8vw, 60px); line-height: 1; color: #E4FF38"><span data-p="load">$25</span></span><span style="font-size: 15px; line-height: 1.5; color: #D9D4CA">per month, for a coach. <span data-p="note">£20 in the UK, €25 in Europe.</span></span></div></div><div role="group" aria-label="Currency" style="display: flex; align-items: center; gap: 8px; font-size: 14px; color: #D9D4CA; margin-top: -20px"><span>Prices in</span><button type="button" data-cur="USD" style="min-height: 36px; min-width: 52px; padding: 0 10px; background: transparent; color: #D9D4CA; border: 1px solid rgba(217,212,202,0.3); border-radius: 4px; font-family: 'Spline Sans', sans-serif; font-size: 14px; cursor: pointer">USD</button><button type="button" data-cur="GBP" style="min-height: 36px; min-width: 52px; padding: 0 10px; background: transparent; color: #D9D4CA; border: 1px solid rgba(217,212,202,0.3); border-radius: 4px; font-family: 'Spline Sans', sans-serif; font-size: 14px; cursor: pointer">GBP</button><button type="button" data-cur="EUR" style="min-height: 36px; min-width: 52px; padding: 0 10px; background: transparent; color: #D9D4CA; border: 1px solid rgba(217,212,202,0.3); border-radius: 4px; font-family: 'Spline Sans', sans-serif; font-size: 14px; cursor: pointer">EUR</button></div>
 </div>
 </div>
 </section>
@@ -250,6 +250,46 @@ html{scroll-padding-top:env(safe-area-inset-top,0px)}
 
 </div>
 
-<script>(function(){var n=15,bar=document.getElementById('progress'),dots=document.querySelectorAll('[data-dot]');function set(i){bar.style.width=((i+1)/n*100).toFixed(1)+'%';dots.forEach(function(d,k){d.classList.toggle('on',k===i);});}set(0);try{var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)set(Number(e.target.getAttribute('data-slide')));});},{rootMargin:'-45% 0px -45% 0px',threshold:0});document.querySelectorAll('[data-slide]').forEach(function(el){o.observe(el);});}catch(e){}})();</script>
+<script>
+(function(){
+  var n=15,bar=document.getElementById('progress'),dots=document.querySelectorAll('[data-dot]');
+  function set(i){bar.style.width=((i+1)/n*100).toFixed(1)+'%';dots.forEach(function(d,k){d.classList.toggle('on',k===i);});}
+  set(0);
+  try{var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)set(Number(e.target.getAttribute('data-slide')));});},{rootMargin:'-45% 0px -45% 0px',threshold:0});
+  document.querySelectorAll('[data-slide]').forEach(function(el){o.observe(el);});}catch(e){}
+  /* Local pricing: picks a currency from the visitor's time zone; the buttons let them switch. */
+  var PRICES={
+    USD:{free:'$0',apps:'$20–30',coach:'$200–300',load:'$25',note:'£20 in the UK, €25 in Europe.'},
+    GBP:{free:'£0',apps:'£15–25',coach:'£200–300',load:'£20',note:'$25 in the US, €25 in Europe.'},
+    EUR:{free:'€0',apps:'€15–25',coach:'€200–300',load:'€25',note:'£20 in the UK, $25 in the US.'}
+  };
+  var GBP=['GB','IM','JE','GG'];
+  var EUROPE=['AT','BE','BG','CH','CY','CZ','DE','DK','EE','ES','FI','FR','GR','HR','HU','IE','IS','IT','LI','LT','LU','LV','MT','NL','NO','PL','PT','RO','SE','SI','SK','AD','MC','SM','VA','ME','AL','BA','MK','RS','MD','XK'];
+  function fromCountry(c){ if(!c) return null; if(GBP.indexOf(c)>-1) return 'GBP'; if(EUROPE.indexOf(c)>-1) return 'EUR'; return 'USD'; }
+  function guess(){
+    try{var tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';
+      if(/^Europe\/(London|Belfast|Guernsey|Isle_of_Man|Jersey)$/.test(tz)) return 'GBP';
+      if(/^Europe\//.test(tz)) return 'EUR';}catch(e){}
+    return 'USD';
+  }
+  var userChose=false;
+  function setCur(c){
+    var t=PRICES[c]; if(!t) return;
+    document.querySelectorAll('[data-p]').forEach(function(el){var k=el.getAttribute('data-p'); if(t[k]) el.textContent=t[k];});
+    document.querySelectorAll('[data-cur]').forEach(function(b){var on=b.getAttribute('data-cur')===c; b.setAttribute('aria-pressed',on?'true':'false'); b.style.color=on?'#F5F3EE':'#D9D4CA'; b.style.borderColor=on?'#F5F3EE':'rgba(217,212,202,0.3)';});
+  }
+  document.querySelectorAll('[data-cur]').forEach(function(b){b.addEventListener('click',function(){userChose=true;setCur(b.getAttribute('data-cur'));});});
+  /* 1. Instant guess from the device time zone. 2. Upgrade to the IP country from /api/geo (Vercel) if it answers. */
+  setCur(guess());
+  try{
+    var ctrl=('AbortController' in window)?new AbortController():null;
+    if(ctrl) setTimeout(function(){ctrl.abort();},2000);
+    fetch('/api/geo',{cache:'no-store',signal:ctrl?ctrl.signal:undefined})
+      .then(function(r){return r.ok?r.json():null;})
+      .then(function(d){var c=fromCountry(d&&d.country); if(c&&!userChose) setCur(c);})
+      .catch(function(){});
+  }catch(e){}
+})();
+</script>
 </body>
 </html>
